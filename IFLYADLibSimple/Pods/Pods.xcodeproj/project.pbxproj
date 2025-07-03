@@ -6,117 +6,44 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		D04E2160BADFA0DDA5F3E168205D6E81 /* IFLYADLib_simulator */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 3D7E82EF9FC0AD6A5334F1DD5A1F77AC /* Build configuration list for PBXAggregateTarget "IFLYADLib_simulator" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = IFLYADLib_simulator;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		AD5C1C3239CADC964E49F161EE9DA228 /* Pods-IFLYADLibSimple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C6AB2BF5FA9A22487E9676271821E3 /* Pods-IFLYADLibSimple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5FCBB9A0D6708628B49CF94E1F061C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		E3AE3472866D8070FA8171A690ACD14C /* Pods-IFLYADLibSimple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3393A7B37A97AF055EAA9DFE1A28C2B0 /* Pods-IFLYADLibSimple-dummy.m */; };
+		0FF480F6A6F19BC242FEB50B5B5E4BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		7760B4A59466408356E6A0DE32AA34F1 /* Pods-IFLYADLibSimple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42AEE7189ACBD25E0BA89B15C588F9 /* Pods-IFLYADLibSimple-dummy.m */; };
+		D17A2067B1D08C5A80746094516AAD07 /* Pods-IFLYADLibSimple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3078B67135F97D5DF03B3642A945052B /* Pods-IFLYADLibSimple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B446EA1B82A8CB34959550285BC8F855 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D04E2160BADFA0DDA5F3E168205D6E81;
-			remoteInfo = IFLYADLib_simulator;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		07521DCCD41D90D43F6DA545B64AAC64 /* IFLYADLib_simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFLYADLib_simulator.debug.xcconfig; sourceTree = "<group>"; };
-		12A4FE7F3E5BCA43D0C228A05BF41A00 /* IFLYPlayer.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IFLYPlayer.bundle; path = IFLYADLib.framework/IFLYPlayer.bundle; sourceTree = "<group>"; };
-		21625859846091FE9E3A8C8C0F655CF1 /* IFLYADLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IFLYADLib.framework; sourceTree = "<group>"; };
-		3393A7B37A97AF055EAA9DFE1A28C2B0 /* Pods-IFLYADLibSimple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFLYADLibSimple-dummy.m"; sourceTree = "<group>"; };
+		108E45FDC8A20B9B936EE210AF186687 /* Pods-IFLYADLibSimple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IFLYADLibSimple.modulemap"; sourceTree = "<group>"; };
+		3078B67135F97D5DF03B3642A945052B /* Pods-IFLYADLibSimple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IFLYADLibSimple-umbrella.h"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3A89ACC910C83604C9FDEBB3BDC24B91 /* Pods-IFLYADLibSimple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFLYADLibSimple.debug.xcconfig"; sourceTree = "<group>"; };
-		4E932011E967A15DE47743C2CC81511D /* Pods-IFLYADLibSimple-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFLYADLibSimple-acknowledgements.markdown"; sourceTree = "<group>"; };
-		61C6AB2BF5FA9A22487E9676271821E3 /* Pods-IFLYADLibSimple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IFLYADLibSimple-umbrella.h"; sourceTree = "<group>"; };
-		648BAA9E3F271CA44E0A640D8555DA4B /* Pods-IFLYADLibSimple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IFLYADLibSimple.modulemap"; sourceTree = "<group>"; };
-		953B77D051E5E96AE9AAC0C76E1E4F5F /* Pods-IFLYADLibSimple-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IFLYADLibSimple-resources.sh"; sourceTree = "<group>"; };
+		46898D8061A8EF14E094E5DCBB025096 /* Pods-IFLYADLibSimple-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFLYADLibSimple-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D72D6746C8C4A01E74EDB9685CEC575 /* Pods-IFLYADLibSimple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFLYADLibSimple.debug.xcconfig"; sourceTree = "<group>"; };
+		9AEED3BCFCD042ACFEC3BA047A8C867C /* Pods-IFLYADLibSimple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFLYADLibSimple.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABC58867A87646411FACEA17C02902FD /* IFLYADLib_simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFLYADLib_simulator.release.xcconfig; sourceTree = "<group>"; };
-		BE83250F9B77B3F23055A847F91BC725 /* Pods-IFLYADLibSimple-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFLYADLibSimple-acknowledgements.plist"; sourceTree = "<group>"; };
-		C4AA4EAB0EFD5EE5ABD4051482B435B5 /* Pods-IFLYADLibSimple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFLYADLibSimple.release.xcconfig"; sourceTree = "<group>"; };
-		DE2E5F9F519F54BFDB2460B106B79FDF /* Pods-IFLYADLibSimple-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFLYADLibSimple-Info.plist"; sourceTree = "<group>"; };
+		B243952095275BA159407BE03087100C /* Pods-IFLYADLibSimple-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFLYADLibSimple-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF42AEE7189ACBD25E0BA89B15C588F9 /* Pods-IFLYADLibSimple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFLYADLibSimple-dummy.m"; sourceTree = "<group>"; };
+		DC47841849E9C910F6943B04A358C933 /* Pods-IFLYADLibSimple-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFLYADLibSimple-Info.plist"; sourceTree = "<group>"; };
 		E60361AE3F566C94235A23E501BB01E9 /* Pods-IFLYADLibSimple */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IFLYADLibSimple"; path = Pods_IFLYADLibSimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		524FF05C065371F0656DCBB18BD6DFAA /* Frameworks */ = {
+		08F7FF37DAEAED5A706B0282B51A0325 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5FCBB9A0D6708628B49CF94E1F061C6 /* Foundation.framework in Frameworks */,
+				0FF480F6A6F19BC242FEB50B5B5E4BA7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52FF81141F6897591A79C865CBD1C2E3 /* Support Files */ = {
+		39010A61A21E23BEDE788CC8E526139A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				07521DCCD41D90D43F6DA545B64AAC64 /* IFLYADLib_simulator.debug.xcconfig */,
-				ABC58867A87646411FACEA17C02902FD /* IFLYADLib_simulator.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/IFLYADLib_simulator";
-			sourceTree = "<group>";
-		};
-		60065CDDE1596A19AF1438BE29912606 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				12A4FE7F3E5BCA43D0C228A05BF41A00 /* IFLYPlayer.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		8AE7BEE8D27C54E669996E49B0B24200 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9573F2FED2713064BC3C640C09A09424 /* Pods-IFLYADLibSimple */,
+				FD14D5FA23376568B2C22B239104679D /* Pods-IFLYADLibSimple */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9573F2FED2713064BC3C640C09A09424 /* Pods-IFLYADLibSimple */ = {
-			isa = PBXGroup;
-			children = (
-				648BAA9E3F271CA44E0A640D8555DA4B /* Pods-IFLYADLibSimple.modulemap */,
-				4E932011E967A15DE47743C2CC81511D /* Pods-IFLYADLibSimple-acknowledgements.markdown */,
-				BE83250F9B77B3F23055A847F91BC725 /* Pods-IFLYADLibSimple-acknowledgements.plist */,
-				3393A7B37A97AF055EAA9DFE1A28C2B0 /* Pods-IFLYADLibSimple-dummy.m */,
-				DE2E5F9F519F54BFDB2460B106B79FDF /* Pods-IFLYADLibSimple-Info.plist */,
-				953B77D051E5E96AE9AAC0C76E1E4F5F /* Pods-IFLYADLibSimple-resources.sh */,
-				61C6AB2BF5FA9A22487E9676271821E3 /* Pods-IFLYADLibSimple-umbrella.h */,
-				3A89ACC910C83604C9FDEBB3BDC24B91 /* Pods-IFLYADLibSimple.debug.xcconfig */,
-				C4AA4EAB0EFD5EE5ABD4051482B435B5 /* Pods-IFLYADLibSimple.release.xcconfig */,
-			);
-			name = "Pods-IFLYADLibSimple";
-			path = "Target Support Files/Pods-IFLYADLibSimple";
-			sourceTree = "<group>";
-		};
-		B5E1419A12C8BB8D834EC16B16F5E7C0 /* IFLYADLib_simulator */ = {
-			isa = PBXGroup;
-			children = (
-				F00C5FD1EE7918E9AB7F1BEC6C237E36 /* Frameworks */,
-				60065CDDE1596A19AF1438BE29912606 /* Resources */,
-				52FF81141F6897591A79C865CBD1C2E3 /* Support Files */,
-			);
-			name = IFLYADLib_simulator;
-			path = IFLYADLib_simulator;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -124,9 +51,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E2A4F31B3901A81FAE7DAC7376283AF3 /* Pods */,
 				E8DBBAAC2F7DC83B2D65BE21FA094967 /* Products */,
-				8AE7BEE8D27C54E669996E49B0B24200 /* Targets Support Files */,
+				39010A61A21E23BEDE788CC8E526139A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,14 +62,6 @@
 				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E2A4F31B3901A81FAE7DAC7376283AF3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B5E1419A12C8BB8D834EC16B16F5E7C0 /* IFLYADLib_simulator */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
@@ -162,22 +80,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F00C5FD1EE7918E9AB7F1BEC6C237E36 /* Frameworks */ = {
+		FD14D5FA23376568B2C22B239104679D /* Pods-IFLYADLibSimple */ = {
 			isa = PBXGroup;
 			children = (
-				21625859846091FE9E3A8C8C0F655CF1 /* IFLYADLib.framework */,
+				108E45FDC8A20B9B936EE210AF186687 /* Pods-IFLYADLibSimple.modulemap */,
+				46898D8061A8EF14E094E5DCBB025096 /* Pods-IFLYADLibSimple-acknowledgements.markdown */,
+				B243952095275BA159407BE03087100C /* Pods-IFLYADLibSimple-acknowledgements.plist */,
+				CF42AEE7189ACBD25E0BA89B15C588F9 /* Pods-IFLYADLibSimple-dummy.m */,
+				DC47841849E9C910F6943B04A358C933 /* Pods-IFLYADLibSimple-Info.plist */,
+				3078B67135F97D5DF03B3642A945052B /* Pods-IFLYADLibSimple-umbrella.h */,
+				8D72D6746C8C4A01E74EDB9685CEC575 /* Pods-IFLYADLibSimple.debug.xcconfig */,
+				9AEED3BCFCD042ACFEC3BA047A8C867C /* Pods-IFLYADLibSimple.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-IFLYADLibSimple";
+			path = "Target Support Files/Pods-IFLYADLibSimple";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4B46993FC9EA1844D59396C12BCCBF35 /* Headers */ = {
+		F70A819C4D6FD882665E70EACC2A3C8A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD5C1C3239CADC964E49F161EE9DA228 /* Pods-IFLYADLibSimple-umbrella.h in Headers */,
+				D17A2067B1D08C5A80746094516AAD07 /* Pods-IFLYADLibSimple-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,17 +112,16 @@
 /* Begin PBXNativeTarget section */
 		9A9AEC2188E392A14E96D796F1EEA644 /* Pods-IFLYADLibSimple */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 474355686E26D68DAF724910A646230F /* Build configuration list for PBXNativeTarget "Pods-IFLYADLibSimple" */;
+			buildConfigurationList = D93610EE705EC50ED55DC963F8A07E54 /* Build configuration list for PBXNativeTarget "Pods-IFLYADLibSimple" */;
 			buildPhases = (
-				4B46993FC9EA1844D59396C12BCCBF35 /* Headers */,
-				44740236016A8F9A1B7074C6B9E0B8D0 /* Sources */,
-				524FF05C065371F0656DCBB18BD6DFAA /* Frameworks */,
-				D796B571ED59F0C4ECF4135126A56D41 /* Resources */,
+				F70A819C4D6FD882665E70EACC2A3C8A /* Headers */,
+				B6195098EB153CBC4C50A3E952B7EB36 /* Sources */,
+				08F7FF37DAEAED5A706B0282B51A0325 /* Frameworks */,
+				C35DD1E861DA026219106FD0EE112E3D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				313453E7F0E76872BF6F50CB2828123E /* PBXTargetDependency */,
 			);
 			name = "Pods-IFLYADLibSimple";
 			productName = Pods_IFLYADLibSimple;
@@ -227,14 +152,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D04E2160BADFA0DDA5F3E168205D6E81 /* IFLYADLib_simulator */,
 				9A9AEC2188E392A14E96D796F1EEA644 /* Pods-IFLYADLibSimple */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D796B571ED59F0C4ECF4135126A56D41 /* Resources */ = {
+		C35DD1E861DA026219106FD0EE112E3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,24 +168,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		44740236016A8F9A1B7074C6B9E0B8D0 /* Sources */ = {
+		B6195098EB153CBC4C50A3E952B7EB36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3AE3472866D8070FA8171A690ACD14C /* Pods-IFLYADLibSimple-dummy.m in Sources */,
+				7760B4A59466408356E6A0DE32AA34F1 /* Pods-IFLYADLibSimple-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		313453E7F0E76872BF6F50CB2828123E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IFLYADLib_simulator;
-			target = D04E2160BADFA0DDA5F3E168205D6E81 /* IFLYADLib_simulator */;
-			targetProxy = B446EA1B82A8CB34959550285BC8F855 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
@@ -330,6 +245,46 @@
 			};
 			name = Debug;
 		};
+		3A67C9B26E684C29885E68AD4FDD50E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AEED3BCFCD042ACFEC3BA047A8C867C /* Pods-IFLYADLibSimple.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-IFLYADLibSimple/Pods-IFLYADLibSimple-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IFLYADLibSimple/Pods-IFLYADLibSimple.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,9 +347,9 @@
 			};
 			name = Release;
 		};
-		66449DD6823065729DEA40B55F940391 /* Debug */ = {
+		B8618DC41C82FEB57646A08B7958E047 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A89ACC910C83604C9FDEBB3BDC24B91 /* Pods-IFLYADLibSimple.debug.xcconfig */;
+			baseConfigurationReference = 8D72D6746C8C4A01E74EDB9685CEC575 /* Pods-IFLYADLibSimple.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -430,110 +385,24 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6839A916C71DB1851F8A0FC22AFEB180 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07521DCCD41D90D43F6DA545B64AAC64 /* IFLYADLib_simulator.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6A577594DE835429D95BF550C6B4F616 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4AA4EAB0EFD5EE5ABD4051482B435B5 /* Pods-IFLYADLibSimple.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-IFLYADLibSimple/Pods-IFLYADLibSimple-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IFLYADLibSimple/Pods-IFLYADLibSimple.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		719C6AE7BB5AECC29EC546FDABB2833F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABC58867A87646411FACEA17C02902FD /* IFLYADLib_simulator.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D7E82EF9FC0AD6A5334F1DD5A1F77AC /* Build configuration list for PBXAggregateTarget "IFLYADLib_simulator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6839A916C71DB1851F8A0FC22AFEB180 /* Debug */,
-				719C6AE7BB5AECC29EC546FDABB2833F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		474355686E26D68DAF724910A646230F /* Build configuration list for PBXNativeTarget "Pods-IFLYADLibSimple" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				66449DD6823065729DEA40B55F940391 /* Debug */,
-				6A577594DE835429D95BF550C6B4F616 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
 				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93610EE705EC50ED55DC963F8A07E54 /* Build configuration list for PBXNativeTarget "Pods-IFLYADLibSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8618DC41C82FEB57646A08B7958E047 /* Debug */,
+				3A67C9B26E684C29885E68AD4FDD50E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
