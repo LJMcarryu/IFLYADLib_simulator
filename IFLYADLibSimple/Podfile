@@ -7,4 +7,12 @@ pod 'IFLYADLib_simulator'
 
 #pod 'Ads-CN-Beta','6.7.0.3', :subspecs => ['BUAdSDK', 'CSJMediation']
 
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64'
+    end
+  end
+end
+
 end
