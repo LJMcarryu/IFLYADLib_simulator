@@ -1,5 +1,5 @@
 PODS:
-  - IFLYADLib_simulator (5.3.5)
+  - IFLYADLib_simulator (5.4.0)
 
 DEPENDENCIES:
   - IFLYADLib_simulator
@@ -9,7 +9,7 @@ SPEC REPOS:
     - IFLYADLib_simulator
 
 SPEC CHECKSUMS:
-  IFLYADLib_simulator: aee2d5a8c046df0b2f4f3663d2efd40e38429386
+  IFLYADLib_simulator: 39d1e5f44c076a227f696f3b0613ce863fe24de8
 
 PODFILE CHECKSUM: 8212280a73bea3e52b09783cf120bd1089e894e5
 
